@@ -1,0 +1,39 @@
+:root {
+    --primary-bg: rgb(163, 98, 0);
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: var(--primary-bg);
+  }
+  
+  #welcome-section {
+    height: 100vh;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media (max-width: 1000px) {
+    a {
+      color: red;
+    }
+  }
