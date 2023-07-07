@@ -1,62 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="wisth=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Personal Portfolio</title>
-  </head>
-  <body>
-    <nav id="navbar">
-      <a href="#welcome-section">About</a>
-      <a href="#projects">Work</a>
-      <a href="#contact">Contact</a>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <p><a class="nav-links" href="#welcome-section">About</a></p>
+        <p><a class="nav-links" href="#projects">Work</a></p>
+        <p class="nav-right-text"><a class="nav-links" href="#contact">Contact</a></p>
     </nav>
-    <main>
-      <section id="welcome-section">
-        <h1>Hello I'm Kevin</h1>
-        <p>a web developer</p>
-      </section>
-      <section id="projects">
+    <section id="welcome-section">
+        <div class="welcome-text">
+            <h1>hello my name is Kevin</h1>
+            <p><em>I'm a web devoloper</em></p>
+        </div>
+    </section>
+    <section id="projects">
         <h2>These are some of my projects</h2>
-        <figure class="figure">
-          <img src="">
-          <a class="project-link" href="" target="_blank">
-            <figcaption class="project-tile">Survey Form
-            </figcaption>
-          </a>
-        </figure>
-        <figure class="figure">
-          <img src="">
-          <a class="project-link" href="" target="_blank">
-            <figcaption class="project-tile">Tribute Page
-            </figcaption>
-          </a>
-        </figure>
-        <figure class="figure">
-          <img src="">
-          <a class="project-link" href="" target="_blank">
-            <figcaption class="project-tile">Techincal Documentation
-            </figcaption>
-          </a>
-        </figure>
-        <figure class="figure">
-          <img src="">
-          <a class="project-link" href="" target="_blank">
-            <figcaption class="project-tile">Product Landing Page
-            </figcaption>
-          </a>
-        </figure>
-      </section>
-      <section id="contact">
-        <h2>Contact me</h2>
-        <p>always coding...</p>
-        <a id="profile-link" href="https://github.com/fReNOvucrar" target="_blank"><i class="fa fa-github"></i>GitHub</a>
-      </section>
-    </main>
-    <footer>
-      
-    </footer>
-  </body>
+        <div class="figure-container">
+            <figure class="image">
+                <img src="survey-form-screenshot.png" width="300" alt="survey form">
+                <figcaption>Survey Form</figcaption>
+            </figure>
+            <figure class="image">
+                <img src="tribute-page-screenshot.png" width="300" alt="tribute page">
+                <figcaption><a class="nav-links" href="file:///home/tobrlj54oqlg/repos/freeCodeCamp/responsive-web-design-certification/survey-form/freeCodeCamp_tributepage/index.html">Tribute Page</a></figcaption>
+            </figure>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+    </section>
+</body>
 </html>
